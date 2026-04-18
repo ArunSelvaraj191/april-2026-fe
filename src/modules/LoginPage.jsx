@@ -6,8 +6,6 @@ import { useNavigate } from "react-router-dom";
 const LoginPage = () => {
   const navigate = useNavigate();
 
-  // const [count, setCount] = useState(0);
-
   // useEffect(() => {
   //   console.log("Count changed:", count);
   // }, [count]);
@@ -40,9 +38,6 @@ const LoginPage = () => {
       <Typography variant="h4" sx={{ color: "primary.main" }}>
         Login Page
       </Typography>
-      {/* <Button variant="contained" onClick={() => setCount(count + 1)}>
-        Count: {count}
-      </Button> */}
       <Box>
         <Box>
           <TextField
