@@ -3,6 +3,7 @@ import "./App.css";
 import LoginPage from "./modules/LoginPage";
 import Navbar from "./modules/Navbar";
 import RegisterPage from "./modules/RegisterPage";
+import Dashboard from "./modules/Dashboard";
 import { ThemeProvider } from "./modules/context/ThemeContext";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
